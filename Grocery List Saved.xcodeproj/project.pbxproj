@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C6B15AD250ABFE300100329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B15AC250ABFE300100329 /* AppDelegate.swift */; };
+		8C6B15AF250ABFE300100329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B15AE250ABFE300100329 /* SceneDelegate.swift */; };
+		8C6B15B1250ABFE300100329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B15B0250ABFE300100329 /* ViewController.swift */; };
+		8C6B15B4250ABFE300100329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B15B2250ABFE300100329 /* Main.storyboard */; };
+		8C6B15B6250ABFE500100329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B15B5250ABFE500100329 /* Assets.xcassets */; };
+		8C6B15B9250ABFE500100329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B15B7250ABFE500100329 /* LaunchScreen.storyboard */; };
+		8C6B15BE250ABFE500100329 /* Grocery List Saved WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8C6B15BD250ABFE500100329 /* Grocery List Saved WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C6B15C4250ABFE500100329 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B15C2250ABFE500100329 /* Interface.storyboard */; };
+		8C6B15C6250ABFE600100329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B15C5250ABFE600100329 /* Assets.xcassets */; };
+		8C6B15CD250ABFE700100329 /* Grocery List Saved WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C6B15CC250ABFE700100329 /* Grocery List Saved WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C6B15D2250ABFE700100329 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B15D1250ABFE700100329 /* InterfaceController.swift */; };
+		8C6B15D4250ABFE700100329 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B15D3250ABFE700100329 /* ExtensionDelegate.swift */; };
+		8C6B15D6250ABFE700100329 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B15D5250ABFE700100329 /* NotificationController.swift */; };
+		8C6B15D8250ABFE700100329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B15D7250ABFE700100329 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C6B15BF250ABFE500100329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6B15A1250ABFE300100329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6B15BC250ABFE500100329;
+			remoteInfo = "Grocery List Saved WatchKit App";
+		};
+		8C6B15CE250ABFE700100329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6B15A1250ABFE300100329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6B15CB250ABFE700100329;
+			remoteInfo = "Grocery List Saved WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C6B15E0250ABFE700100329 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C6B15CD250ABFE700100329 /* Grocery List Saved WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6B15E4250ABFE700100329 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8C6B15BE250ABFE500100329 /* Grocery List Saved WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C6B15A9250ABFE300100329 /* Grocery List Saved.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List Saved.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6B15AC250ABFE300100329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C6B15AE250ABFE300100329 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C6B15B0250ABFE300100329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C6B15B3250ABFE300100329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C6B15B5250ABFE500100329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C6B15B8250ABFE500100329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C6B15BA250ABFE500100329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6B15BD250ABFE500100329 /* Grocery List Saved WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List Saved WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6B15C3250ABFE500100329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8C6B15C5250ABFE600100329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C6B15C7250ABFE600100329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6B15CC250ABFE700100329 /* Grocery List Saved WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Grocery List Saved WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6B15D1250ABFE700100329 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8C6B15D3250ABFE700100329 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8C6B15D5250ABFE700100329 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8C6B15D7250ABFE700100329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C6B15D9250ABFE700100329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6B15DA250ABFE700100329 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6B15A6250ABFE300100329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6B15C9250ABFE700100329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C6B15A0250ABFE300100329 = {
+			isa = PBXGroup;
+			children = (
+				8C6B15AB250ABFE300100329 /* Grocery List Saved */,
+				8C6B15C1250ABFE500100329 /* Grocery List Saved WatchKit App */,
+				8C6B15D0250ABFE700100329 /* Grocery List Saved WatchKit Extension */,
+				8C6B15AA250ABFE300100329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6B15AA250ABFE300100329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B15A9250ABFE300100329 /* Grocery List Saved.app */,
+				8C6B15BD250ABFE500100329 /* Grocery List Saved WatchKit App.app */,
+				8C6B15CC250ABFE700100329 /* Grocery List Saved WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6B15AB250ABFE300100329 /* Grocery List Saved */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B15AC250ABFE300100329 /* AppDelegate.swift */,
+				8C6B15AE250ABFE300100329 /* SceneDelegate.swift */,
+				8C6B15B0250ABFE300100329 /* ViewController.swift */,
+				8C6B15B2250ABFE300100329 /* Main.storyboard */,
+				8C6B15B5250ABFE500100329 /* Assets.xcassets */,
+				8C6B15B7250ABFE500100329 /* LaunchScreen.storyboard */,
+				8C6B15BA250ABFE500100329 /* Info.plist */,
+			);
+			path = "Grocery List Saved";
+			sourceTree = "<group>";
+		};
+		8C6B15C1250ABFE500100329 /* Grocery List Saved WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B15C2250ABFE500100329 /* Interface.storyboard */,
+				8C6B15C5250ABFE600100329 /* Assets.xcassets */,
+				8C6B15C7250ABFE600100329 /* Info.plist */,
+			);
+			path = "Grocery List Saved WatchKit App";
+			sourceTree = "<group>";
+		};
+		8C6B15D0250ABFE700100329 /* Grocery List Saved WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B15D1250ABFE700100329 /* InterfaceController.swift */,
+				8C6B15D3250ABFE700100329 /* ExtensionDelegate.swift */,
+				8C6B15D5250ABFE700100329 /* NotificationController.swift */,
+				8C6B15D7250ABFE700100329 /* Assets.xcassets */,
+				8C6B15D9250ABFE700100329 /* Info.plist */,
+				8C6B15DA250ABFE700100329 /* PushNotificationPayload.apns */,
+			);
+			path = "Grocery List Saved WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6B15A8250ABFE300100329 /* Grocery List Saved */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6B15E5250ABFE700100329 /* Build configuration list for PBXNativeTarget "Grocery List Saved" */;
+			buildPhases = (
+				8C6B15A5250ABFE300100329 /* Sources */,
+				8C6B15A6250ABFE300100329 /* Frameworks */,
+				8C6B15A7250ABFE300100329 /* Resources */,
+				8C6B15E4250ABFE700100329 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6B15C0250ABFE500100329 /* PBXTargetDependency */,
+			);
+			name = "Grocery List Saved";
+			productName = "Grocery List Saved";
+			productReference = 8C6B15A9250ABFE300100329 /* Grocery List Saved.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C6B15BC250ABFE500100329 /* Grocery List Saved WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6B15E1250ABFE700100329 /* Build configuration list for PBXNativeTarget "Grocery List Saved WatchKit App" */;
+			buildPhases = (
+				8C6B15BB250ABFE500100329 /* Resources */,
+				8C6B15E0250ABFE700100329 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6B15CF250ABFE700100329 /* PBXTargetDependency */,
+			);
+			name = "Grocery List Saved WatchKit App";
+			productName = "Grocery List Saved WatchKit App";
+			productReference = 8C6B15BD250ABFE500100329 /* Grocery List Saved WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8C6B15CB250ABFE700100329 /* Grocery List Saved WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6B15DD250ABFE700100329 /* Build configuration list for PBXNativeTarget "Grocery List Saved WatchKit Extension" */;
+			buildPhases = (
+				8C6B15C8250ABFE700100329 /* Sources */,
+				8C6B15C9250ABFE700100329 /* Frameworks */,
+				8C6B15CA250ABFE700100329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grocery List Saved WatchKit Extension";
+			productName = "Grocery List Saved WatchKit Extension";
+			productReference = 8C6B15CC250ABFE700100329 /* Grocery List Saved WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6B15A1250ABFE300100329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Tatsuya Moriguchi";
+				TargetAttributes = {
+					8C6B15A8250ABFE300100329 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8C6B15BC250ABFE500100329 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8C6B15CB250ABFE700100329 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 8C6B15A4250ABFE300100329 /* Build configuration list for PBXProject "Grocery List Saved" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C6B15A0250ABFE300100329;
+			productRefGroup = 8C6B15AA250ABFE300100329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6B15A8250ABFE300100329 /* Grocery List Saved */,
+				8C6B15BC250ABFE500100329 /* Grocery List Saved WatchKit App */,
+				8C6B15CB250ABFE700100329 /* Grocery List Saved WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6B15A7250ABFE300100329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B15B9250ABFE500100329 /* LaunchScreen.storyboard in Resources */,
+				8C6B15B6250ABFE500100329 /* Assets.xcassets in Resources */,
+				8C6B15B4250ABFE300100329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6B15BB250ABFE500100329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B15C6250ABFE600100329 /* Assets.xcassets in Resources */,
+				8C6B15C4250ABFE500100329 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6B15CA250ABFE700100329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B15D8250ABFE700100329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6B15A5250ABFE300100329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B15B1250ABFE300100329 /* ViewController.swift in Sources */,
+				8C6B15AD250ABFE300100329 /* AppDelegate.swift in Sources */,
+				8C6B15AF250ABFE300100329 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6B15C8250ABFE700100329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B15D6250ABFE700100329 /* NotificationController.swift in Sources */,
+				8C6B15D4250ABFE700100329 /* ExtensionDelegate.swift in Sources */,
+				8C6B15D2250ABFE700100329 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C6B15C0250ABFE500100329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6B15BC250ABFE500100329 /* Grocery List Saved WatchKit App */;
+			targetProxy = 8C6B15BF250ABFE500100329 /* PBXContainerItemProxy */;
+		};
+		8C6B15CF250ABFE700100329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6B15CB250ABFE700100329 /* Grocery List Saved WatchKit Extension */;
+			targetProxy = 8C6B15CE250ABFE700100329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C6B15B2250ABFE300100329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6B15B3250ABFE300100329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C6B15B7250ABFE500100329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6B15B8250ABFE500100329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C6B15C2250ABFE500100329 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6B15C3250ABFE500100329 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C6B15DB250ABFE700100329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C6B15DC250ABFE700100329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6B15DE250ABFE700100329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				INFOPLIST_FILE = "Grocery List Saved WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beckos.Grocery-List-Saved.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		8C6B15DF250ABFE700100329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				INFOPLIST_FILE = "Grocery List Saved WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beckos.Grocery-List-Saved.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		8C6B15E2250ABFE700100329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				IBSC_MODULE = Grocery_List_Saved_WatchKit_Extension;
+				INFOPLIST_FILE = "Grocery List Saved WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beckos.Grocery-List-Saved.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		8C6B15E3250ABFE700100329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				IBSC_MODULE = Grocery_List_Saved_WatchKit_Extension;
+				INFOPLIST_FILE = "Grocery List Saved WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beckos.Grocery-List-Saved.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		8C6B15E6250ABFE700100329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				INFOPLIST_FILE = "Grocery List Saved/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beckos.Grocery-List-Saved";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C6B15E7250ABFE700100329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7BG2G9TC;
+				INFOPLIST_FILE = "Grocery List Saved/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beckos.Grocery-List-Saved";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6B15A4250ABFE300100329 /* Build configuration list for PBXProject "Grocery List Saved" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6B15DB250ABFE700100329 /* Debug */,
+				8C6B15DC250ABFE700100329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6B15DD250ABFE700100329 /* Build configuration list for PBXNativeTarget "Grocery List Saved WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6B15DE250ABFE700100329 /* Debug */,
+				8C6B15DF250ABFE700100329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6B15E1250ABFE700100329 /* Build configuration list for PBXNativeTarget "Grocery List Saved WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6B15E2250ABFE700100329 /* Debug */,
+				8C6B15E3250ABFE700100329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6B15E5250ABFE700100329 /* Build configuration list for PBXNativeTarget "Grocery List Saved" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6B15E6250ABFE700100329 /* Debug */,
+				8C6B15E7250ABFE700100329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C6B15A1250ABFE300100329 /* Project object */;
+}
