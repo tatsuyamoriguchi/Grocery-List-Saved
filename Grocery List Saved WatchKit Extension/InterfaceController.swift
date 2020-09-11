@@ -12,6 +12,8 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     @IBOutlet var itemLabel: WKInterfaceLabel!
+    @IBOutlet var fruitImage: WKInterfaceImage!
+    
     
     let userDefualts = UserDefaults()
     
@@ -24,6 +26,10 @@ class InterfaceController: WKInterfaceController {
                 self.dismissTextInputController()
                 self.itemLabel.setText(result[0] as? String)
                 self.userDefualts.setValue(result[0], forKey: "item")
+                
+                
+                self.fruitImage.setImageNamed(result[0] as? String)
+               
             }
             
         })
@@ -31,8 +37,12 @@ class InterfaceController: WKInterfaceController {
     }
 
     override func awake(withContext context: Any?) {
+        
+        
         super.awake(withContext: context)
         self.itemLabel.setText(userDefualts.value(forKey: "item") as? String)
+        self.fruitImage.setImageNamed(userDefualts.value(forKey: "item") as? String)
+        
         
         // Configure interface objects here.
     }

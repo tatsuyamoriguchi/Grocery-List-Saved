@@ -17,13 +17,15 @@
                             </connections>
                         </button>
                         <label width="133" height="25" alignment="left" text="Label" id="MAM-Di-SJn"/>
+                        <imageView height="113" alignment="left" contentMode="scaleAspectFit" id="1f0-rt-SEW"/>
                     </items>
                     <connections>
+                        <outlet property="fruitImage" destination="1f0-rt-SEW" id="nAO-4f-4oW"/>
                         <outlet property="itemLabel" destination="MAM-Di-SJn" id="ydH-ji-UTL"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="361.5"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
